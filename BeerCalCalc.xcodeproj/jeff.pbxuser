@@ -1,0 +1,148 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* BeerCalCalc */ = {
+		activeExec = 0;
+		executables = (
+			1F08A3FD12ADD4A0000866C5 /* BeerCalCalc */,
+		);
+	};
+	1F08A3FD12ADD4A0000866C5 /* BeerCalCalc */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BeerCalCalc;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1F08A41312ADD4AF000866C5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F08A41412ADD4AF000866C5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F08A49F12ADE489000866C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 11";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	1F08A4A012ADE489000866C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 32";
+		rLen = 0;
+		rLoc = 572;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 304;
+	};
+	1F08A4A712ADE54D000866C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 30";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 304;
+	};
+	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 569}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 1664}}";
+			sepNavSelRange = "{815, 0}";
+			sepNavVisRange = "{576, 407}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F08A3FD12ADD4A0000866C5 /* BeerCalCalc */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* BeerCalCalc */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* BeerCalCalc */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1F08A41412ADD4AF000866C5 /* Code sense */;
+		executables = (
+			1F08A3FD12ADD4A0000866C5 /* BeerCalCalc */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313382048;
+			PBXWorkspaceStateSaveDate = 313382048;
+		};
+		perUserProjectItems = {
+			1F08A49F12ADE489000866C5 /* PBXTextBookmark */ = 1F08A49F12ADE489000866C5 /* PBXTextBookmark */;
+			1F08A4A012ADE489000866C5 /* PBXTextBookmark */ = 1F08A4A012ADE489000866C5 /* PBXTextBookmark */;
+			1F08A4A712ADE54D000866C5 /* PBXTextBookmark */ = 1F08A4A712ADE54D000866C5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F08A41312ADD4AF000866C5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

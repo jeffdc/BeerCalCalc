@@ -1,0 +1,520 @@
+TBeerCalCalc
+v7
+r0
+t313386267.498131
+cCheck dependencies
+cCpResource build/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/Info.plist BeerCalCalc-Info.plist
+cCompileXIB /Users/jeff/boxes/BeerCalCalc/FlipsideView.xib
+cCompileXIB /Users/jeff/boxes/BeerCalCalc/MainView.xib
+cCompileXIB /Users/jeff/boxes/BeerCalCalc/MainWindow.xib
+cCopyPNGFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/bubbles.png bubbles.png
+cProcessPCH /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch.gch BeerCalCalc_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch.gch BeerCalCalc_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/main.o /Users/jeff/boxes/BeerCalCalc/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalcAppDelegate.o /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/MainViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/FlipsideViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/main.o /Users/jeff/boxes/BeerCalCalc/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc normal armv6
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalcAppDelegate.o /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/MainViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/FlipsideViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc normal armv7
+cCreateUniversalBinary /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc normal "armv6 armv7"
+cGenerateDSYMFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app.dSYM /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc
+cProcessProductPackaging "/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision" /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision
+cTouch /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent
+cCodeSign /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision
+c000000004CE6E6D50000000000001CBA
+t1290200789
+s7354
+
+N/Users/jeff/boxes/BeerCalCalc/BeerCalCalc_Prefix.pch
+c000000004CFD9D200000000000000148
+t1291689248
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.h
+c000000004CFD9D2000000000000001DD
+t1291689248
+s477
+i<UIKit/UIKit.h>
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m
+c000000004CFD9D200000000000000AA8
+t1291689248
+s2728
+i"BeerCalCalcAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.h
+c000000004CFD9D200000000000000228
+t1291689248
+s552
+i<UIKit/UIKit.h>
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m
+c000000004CFD9D20000000000000044D
+t1291689248
+s1101
+i"FlipsideViewController.h"
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.h
+c000000004CFDA29700000000000001B7
+t1291690647
+s439
+i"FlipsideViewController.h"
+
+N/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m
+c000000004CFDAD05000000000000082C
+t1291693317
+s2092
+i"MainViewController.h"
+
+N/Users/jeff/boxes/BeerCalCalc/FlipsideView.xib
+c000000004CFD9D200000000000004C62
+t1291689248
+s19554
+
+N/Users/jeff/boxes/BeerCalCalc/MainView.xib
+c000000004CFDAD5C00000000000094B8
+t1291693404
+s38072
+
+N/Users/jeff/boxes/BeerCalCalc/MainWindow.xib
+c000000004CFD9D2000000000000050A8
+t1291689248
+s20648
+
+N/Users/jeff/boxes/BeerCalCalc/bubbles.png
+c000000004CFDAA190000000000000F90
+t1291692569
+s3984
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent
+t1291693466
+s428
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc
+t1291693466
+s24136
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc.LinkFileList
+c000000004CFDAD8C00000000000001FE
+t1291693452
+s510
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalcAppDelegate.o
+t1291693465
+s50748
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/FlipsideViewController.o
+t1291693465
+s40604
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/MainViewController.o
+t1291693465
+s45544
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/main.o
+t1291693465
+s6428
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc
+t1291693466
+s24028
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc.LinkFileList
+c000000004CFDAD8C00000000000001FE
+t1291693452
+s510
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalcAppDelegate.o
+t1291693465
+s50668
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/FlipsideViewController.o
+t1291693465
+s40552
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/MainViewController.o
+t1291693465
+s45276
+
+N/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/main.o
+t1291693465
+s6412
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+t1291693467
+s442
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app.dSYM
+t1291693466
+s102
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc
+t1291693466
+s52700
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/FlipsideView.nib
+t1291693453
+s1194
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/Info.plist
+t1291693453
+s797
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/MainView.nib
+t1291693454
+s3546
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/MainWindow.nib
+t1291693454
+s1153
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/PkgInfo
+t1291693453
+s8
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist
+t1291693453
+s485
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/bubbles.png
+t1291693455
+s5099
+
+N/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision
+t1291693466
+s7354
+
+N/Users/jeff/boxes/BeerCalCalc/main.m
+c000000004CFD9D200000000000000160
+t1291689248
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch.gch
+t1291693464
+s9983704
+
+N/var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch.gch
+t1291693464
+s10446552
+
+NBeerCalCalc-Info.plist
+c000000004CFD9D20000000000000038D
+t1291689248
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313386252#313386252#0(0"0(0#1#0"8798092800#0"0#
+
+CCodeSign /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+s313386266.598156
+e313386267.498089
+r1
+xCodeSign
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/BeerCalCalc.app313386266#313386267#0(0"0(0#0#66"/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app8799243712#692"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jeff Clark (M958D2J3HG)" --resource-rules=/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist --entitlements /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalcAppDelegate.o /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313386264.919424
+e313386265.197867
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalcAppDelegate.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m313386264#313386265#0(0"0(0#0#62"/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m8800088576#1811"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv6 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalcAppDelegate.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/FlipsideViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313386265.197976
+e313386265.284527
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m313386265#313386265#0(0"0(0#0#62"/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m8759425408#1811"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv6 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/MainViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313386265.194835
+e313386265.354414
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/MainViewController.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m313386265#313386265#0(0"0(0#0#58"/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m8769527840#1803"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv6 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/main.o /Users/jeff/boxes/BeerCalCalc/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313386264.918115
+e313386265.194735
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/main.o
+x/Users/jeff/boxes/BeerCalCalc/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jeff/boxes/BeerCalCalc/main.m313386264#313386265#0(0"0(0#0#36"/Users/jeff/boxes/BeerCalCalc/main.m8800399648#1767"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv6 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/main.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalcAppDelegate.o /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313386265.447478
+e313386265.588491
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalcAppDelegate.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m313386265#313386265#0(0"0(0#0#62"/Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m8750638048#1811"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv7 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/BeerCalCalcAppDelegate.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalcAppDelegate.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/FlipsideViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313386265.926007
+e313386266.016493
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m313386265#313386266#0(0"0(0#0#62"/Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m8801384352#1811"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv7 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/FlipsideViewController.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/FlipsideViewController.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/MainViewController.o /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313386265.588858
+e313386265.925911
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/MainViewController.o
+x/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m313386265#313386265#0(0"0(0#0#58"/Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m8801454080#1803"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv7 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/Classes/MainViewController.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/main.o /Users/jeff/boxes/BeerCalCalc/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313386265.284641
+e313386265.447372
+r1
+xCompileC
+xbuild/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/main.o
+x/Users/jeff/boxes/BeerCalCalc/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jeff/boxes/BeerCalCalc/main.m313386265#313386265#0(0"0(0#0#36"/Users/jeff/boxes/BeerCalCalc/main.m8798936352#1767"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv7 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -include /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch -c /Users/jeff/boxes/BeerCalCalc/main.m -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/jeff/boxes/BeerCalCalc/FlipsideView.xib
+s313386253.092667
+e313386253.910560
+r1
+xCompileXIB
+x/Users/jeff/boxes/BeerCalCalc/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib313386253#313386253#0(0"0(0#0#46"/Users/jeff/boxes/BeerCalCalc/FlipsideView.xib8749489792#585"    cd /Users/jeff/boxes/BeerCalCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/FlipsideView.nib /Users/jeff/boxes/BeerCalCalc/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/jeff/boxes/BeerCalCalc/MainView.xib
+s313386253.120485
+e313386254.360565
+r1
+xCompileXIB
+x/Users/jeff/boxes/BeerCalCalc/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib313386253#313386254#0(0"0(0#0#42"/Users/jeff/boxes/BeerCalCalc/MainView.xib8761492096#577"    cd /Users/jeff/boxes/BeerCalCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/MainView.nib /Users/jeff/boxes/BeerCalCalc/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/jeff/boxes/BeerCalCalc/MainWindow.xib
+s313386253.910653
+e313386254.678543
+r1
+xCompileXIB
+x/Users/jeff/boxes/BeerCalCalc/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313386253#313386254#0(0"0(0#0#44"/Users/jeff/boxes/BeerCalCalc/MainWindow.xib8748682528#581"    cd /Users/jeff/boxes/BeerCalCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/MainWindow.nib /Users/jeff/boxes/BeerCalCalc/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/bubbles.png bubbles.png
+s313386254.360667
+e313386255.766782
+r1
+xCopyPNGFile
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/bubbles.png
+xbubbles.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/BeerCalCalc.app/bubbles.png bubbles.png313386254#313386255#0(0"0(0#0#41"/Users/jeff/boxes/BeerCalCalc/bubbles.png8800613216#601"    cd /Users/jeff/boxes/BeerCalCalc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jeff/boxes/BeerCalCalc/bubbles.png /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/bubbles.png0#
+
+CCpResource build/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313386252.923234
+e313386253.081157
+r1
+xCpResource
+xbuild/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313386252#313386253#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8793650304#542"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app0#
+
+CCreateUniversalBinary /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc normal "armv6 armv7"
+s313386266.471648
+e313386266.527879
+r1
+xCreateUniversalBinary
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc normal "armv6 armv7"313386266#313386266#0(0"0(0#0#41"/Users/jeff/boxes/BeerCalCalc/armv6 armv78796427776#576"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc -output /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc0#
+
+CGenerateDSYMFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app.dSYM /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc
+s313386266.528036
+e313386266.567239
+r1
+xGenerateDSYMFile
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app.dSYM
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/BeerCalCalc.app.dSYM build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc313386266#313386266#0(0"0(0#0#78"/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc8795763904#409"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/BeerCalCalc -o /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app.dSYM0#
+
+CLd /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc normal armv6
+s313386265.354517
+e313386266.471508
+r1
+xLd
+x/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc
+xnormal
+xarmv6
+lSLF07#2@124"Link /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc313386265#313386266#0(0"0(0#0#0"8795811968#900"    cd /Users/jeff/boxes/BeerCalCalc    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -filelist /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv6/BeerCalCalc0#
+
+CLd /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc normal armv7
+s313386266.016594
+e313386266.468431
+r1
+xLd
+x/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc
+xnormal
+xarmv7
+lSLF07#2@124"Link /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc313386266#313386266#0(0"0(0#0#0"8797520512#900"    cd /Users/jeff/boxes/BeerCalCalc    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -filelist /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/Objects-normal/armv7/BeerCalCalc0#
+
+CProcessInfoPlistFile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/Info.plist BeerCalCalc-Info.plist
+s313386252.924786
+e313386253.092568
+r1
+xProcessInfoPlistFile
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/Info.plist
+xBeerCalCalc-Info.plist
+lSLF07#2@30"Process BeerCalCalc-Info.plist313386252#313386253#0(0"0(0#0#52"/Users/jeff/boxes/BeerCalCalc/BeerCalCalc-Info.plist8793534944#604"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility BeerCalCalc-Info.plist -genpkginfo /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/ResourceRules.plist -o /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/Info.plist0#
+
+CProcessPCH /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch.gch BeerCalCalc_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313386255.767033
+e313386264.671932
+r1
+xProcessPCH
+x/var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch.gch
+xBeerCalCalc_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile BeerCalCalc_Prefix.pch313386255#313386264#0(0"0(0#0#52"/Users/jeff/boxes/BeerCalCalc/BeerCalCalc_Prefix.pch8800018784#1670"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv6 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -c /Users/jeff/boxes/BeerCalCalc/BeerCalCalc_Prefix.pch -o /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-egpfqumsbpbgcbbhvzetqgkfqski/BeerCalCalc_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch.gch BeerCalCalc_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313386255.769154
+e313386264.918012
+r1
+xProcessPCH
+x/var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch.gch
+xBeerCalCalc_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile BeerCalCalc_Prefix.pch313386255#313386264#0(0"0(0#0#52"/Users/jeff/boxes/BeerCalCalc/BeerCalCalc_Prefix.pch8799415200#1670"    cd /Users/jeff/boxes/BeerCalCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-generated-files.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-own-target-headers.hmap -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-all-target-headers.hmap -iquote /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc-project-headers.hmap -F/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos -I/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/include -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources/armv7 -I/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/DerivedSources -c /Users/jeff/boxes/BeerCalCalc/BeerCalCalc_Prefix.pch -o /var/folders/D6/D606wisNFOe4g4tGqFOv4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BeerCalCalc_Prefix-grmxzxavijosaucjalrjmtgdlvua/BeerCalCalc_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision" /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision
+s313386266.567355
+e313386266.581691
+r1
+xProcessProductPackaging
+x/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision" build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision313386266#313386266#0(0"0(0#0#91"/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision8749943584#470"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/jeff/Library/MobileDevice/Provisioning Profiles/9D59F193-5655-4F18-A036-36A90D8B95AE.mobileprovision" -o /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent
+s313386266.585421
+e313386266.598082
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent313386266#313386266#0(0"0(0#0#104"/Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent8799864256#488"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jeff/boxes/BeerCalCalc/build/BeerCalCalc.build/Debug-iphoneos/BeerCalCalc.build/BeerCalCalc.xcent0#
+
+CTouch /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+s313386266.581769
+e313386266.585328
+r1
+xTouch
+x/Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app
+lSLF07#2@72"Touch /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app313386266#313386266#0(0"0(0#0#0"8800523456#312"    cd /Users/jeff/boxes/BeerCalCalc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jeff/boxes/BeerCalCalc/build/Debug-iphoneos/BeerCalCalc.app0#
+
