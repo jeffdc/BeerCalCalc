@@ -7,6 +7,7 @@
 //
 
 #import "FlipsideViewController.h"
+#import "UIView+FindAndResignFirstResponder.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UITextFieldDelegate> {
 

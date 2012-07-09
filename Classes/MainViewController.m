@@ -30,10 +30,10 @@
 {
 	NSLog(@"%@", textField);
 	if (textField == volume) {
-		NSLog(@"HERE");
-		[abv becomeFirstResponder];
-	} else {
-		NSLog(@"THERE");
+		NSLog(@"VOLUME");
+//		[abv becomeFirstResponder];
+	} else if ([abv.text length] > 0) {
+		NSLog(@"ABV");
 		[textField resignFirstResponder];
 		[self magic:nil];
 	}
@@ -42,9 +42,15 @@
 
 - (IBAction)magic:(id)sender
 {
-	//fl. oz. *ABV = potency / 60 = beers * 150 C = Estimated Calories
-	NSNumber *cals = [NSNumber numberWithFloat:[volume.text floatValue] * [abv.text floatValue] / 60 * 150];
-	calories.text = [cals stringValue];
+    [self.view findAndResignFirstResponder];
+    float vol = [volume.text floatValue];
+    float alc = [abv.text floatValue];
+    
+    if (vol > 0 && alc > 0) {
+        //fl. oz. *ABV = potency / 60 = beers * 150 C = Estimated Calories
+        NSNumber *cals = [NSNumber numberWithFloat:vol * alc / 60 * 150];
+        calories.text = [cals stringValue];
+    }
 }
 
 
